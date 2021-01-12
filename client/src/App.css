@@ -1,0 +1,55 @@
+
+@fontface {
+  font-family: 'Bungee Inline', cursive;
+  src: url('https://fonts.googleapis.com/css?family=Marck+Script')
+}
+
+body {
+  font-family: 'Bungee Inline', cursive;
+}
+
+.messanger {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 32px;
+  min-height: 40rem;
+}
+
+form {
+  max-width: 500px;
+  border-radius: 5px;
+  padding: 20px;
+  box-shadow: 0px 3px 24px -8px rgba(0, 0, 0, 0.75);
+  background-color: white;
+  text-align: left;
+}
+
+.name-field {
+  margin-bottom: 40px;
+}
+
+button {
+  margin-top: 20px;
+  padding: 10px;
+  background: white;
+  border-radius: 5px;
+  text-shadow: 4em;
+  color: #ec62b7;
+}
+
+.chat-log {
+  max-width: 500px;
+  border-radius: 5px;
+  padding: 30px;
+  box-shadow: 0px 3px 24px -8px rgba(0, 0, 0, 0.75);
+  background-color: white;
+  text-align: left;  
+}
+
+h3 {
+  color: #ec62b7;
+}
+
+span {
+  color: black;
+}
