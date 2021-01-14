@@ -6,11 +6,11 @@ MultiServerMessanger application is a full-stack, React (front end) + Node.js (b
 
 ## Features of the Application:
 
-    Application is based on 2 identical servers (same code, run on different machines).
-    Multiple users can connect to the same chat.
-    User can connect to 2 servers and see his messages on both connections.
-    Users can connect to different chat servers and chat with each other.
-    Connection between client and server is based on socket.io.
+- Application is based on 2 identical servers (same code, run on different machines).
+- Multiple users can connect to the same chat.
+- User can connect to 2 servers and see his messages on both connections.
+- Users can connect to different chat servers and chat with each other.
+- Connection between client and server is based on socket.io.
     
 ## Usage
     
