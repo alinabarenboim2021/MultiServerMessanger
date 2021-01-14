@@ -23,3 +23,5 @@ MultiServerMessanger application is a full-stack, React (front end) + Node.js (b
 ## Todo's:
 1. Add security aspects to the application
 2. Add tests (client + server)
+3. Add login functionality
+4. Maintain messanger hostory with DB
