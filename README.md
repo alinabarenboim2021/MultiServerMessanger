@@ -13,6 +13,11 @@ MultiServerMessanger application is a full-stack, React (front end) + Node.js (b
 - Connection between client and server is based on socket.io.
     
 ## Usage
+
+### Run server code 
+1. Under the server directory, edit the config.js. Add your server port and the second server ip:port. 
+2. Assuming node already installed on your machine, run ``` nmp install ``` from server directory in order to install all required node packages. 
+
     
     
 
