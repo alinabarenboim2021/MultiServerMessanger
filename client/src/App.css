@@ -8,7 +8,7 @@ body {
   font-family: 'Bungee Inline', cursive;
 }
 
-.messanger {
+.messenger {
   display: grid;
   grid-template-columns: 1fr 1fr;
   margin: 32px;
