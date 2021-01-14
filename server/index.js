@@ -6,7 +6,7 @@ var client = require('socket.io-client');
 var socket_other_server = client.connect(config.app.backup_server_address ,{secure: true}); //connection to other server
 
 io.on('connection', socket => {
-  console.log('Client connected!')
+  console.log('Connected!')
   socket.on('message', ({ timestamp, name, message }) => {
     // get current timestamp
     var currentdate = new Date()
