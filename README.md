@@ -1,8 +1,8 @@
-# MultiServerMessanger
+# MultiServerMessenger
 
 ## Description
 
-MultiServerMessanger application is a full-stack, React (front end) + Node.js socket.io (backend) chat applications, that available to run same server + client code on 2 machines (servers) and to share messages between servers. In this way, client A can connect to server A , and client B can connect to server B and they will see each other messages.
+MultiServerMessenger application is a full-stack, React (front end) + Node.js socket.io (backend) chat applications, that available to run same server + client code on 2 machines (servers) and to share messages between servers. In this way, client A can connect to server A , and client B can connect to server B and they will see each other messages.
 
 ## Features of the Application:
 
@@ -27,7 +27,7 @@ MultiServerMessanger application is a full-stack, React (front end) + Node.js so
 2. Install required node packages with ```nmp install``` command.
 3. Run client code with ```npm start``` command.
 
-Assuming you run your client on port 3000 (you can change it by editing "start" script in package.json file with PORT=<port num>), you can see the messanger application on your browser with http://localhost:3000. If the client connected with server - you will see your messages in the "Messanger" window.
+Assuming you run your client on port 3000 (you can change it by editing "start" script in package.json file with PORT=<port num>), you can see the messanger application on your browser with http://localhost:3000. If the client connected with server - you will see your messages in the "Messenger" window.
     
 ### Production
 
@@ -54,4 +54,4 @@ Assuming you run your client on port 3000 (you can change it by editing "start" 
 1. Add security aspects to the application
 2. Add tests (client + server)
 3. Add login functionality
-4. Maintain messanger hostory with DB
+4. Maintain messenger hostory with DB
