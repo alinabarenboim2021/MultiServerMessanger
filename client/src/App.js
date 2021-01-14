@@ -46,10 +46,10 @@ function App() {
 
   return (
     
-    <div className="messanger">
+    <div className="messenger">
       <form onSubmit={onMessageSubmit}>
       <Box color="black" bgcolor="lightgrey">
-        <h1>Messanger</h1>
+        <h1>Messenger</h1>
         </Box>
         <div className="name-field">
           <TextField
