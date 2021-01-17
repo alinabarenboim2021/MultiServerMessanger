@@ -64,8 +64,6 @@ function App() {
             name="message"
             onChange={e => onTyping(e)}
             value={state.message}
-            // id="outlined-multiline-static"
-            // variant="outlined"
             label="Message"
           />
         </div>
